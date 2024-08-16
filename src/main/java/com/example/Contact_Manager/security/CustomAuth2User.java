@@ -16,7 +16,7 @@ public class CustomAuth2User extends DefaultOAuth2User {
         super(authorities, attributes, nameAttributeKey);
         this.attributes = attributes;
     }
-    
+
     @Override
     public Map<String, Object> getAttributes() {
         return attributes;
